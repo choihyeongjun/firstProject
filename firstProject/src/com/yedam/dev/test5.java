@@ -11,7 +11,7 @@ public class test5 {
 		boolean run=false;
 		int var1=0;
 		
-		++var1;
+		var1++;
 		for(int i=0;i<3;i++) {
 			run=!run;
 		if(run)
