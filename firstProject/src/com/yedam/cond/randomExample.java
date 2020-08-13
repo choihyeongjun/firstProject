@@ -11,6 +11,9 @@ public class randomExample {
 		sum+=1;
 		sum+=1;
 		System.out.println(sum);
+		
+		
+		
 	}
 
 }
