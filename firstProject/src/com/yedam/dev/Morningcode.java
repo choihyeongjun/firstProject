@@ -1,5 +1,5 @@
 package com.yedam.dev;
-import java.util.*;
+
 
 public class Morningcode {
 
@@ -7,12 +7,17 @@ public class Morningcode {
 		// TODO Auto-generated method stub
 		
 		int []randomnum=new int[10];
-		randomnum=(int)(1+Math.random()*100);
-		System.out.println(randomnum);
+		int ran=(int)(Math.random()*10+1);
+		System.out.println(ran);
+		//System.out.println(randomnum);
 		for(int i=0;i<10;i++)
 		{
-			
-			System.out.print(randomnum+" ");
+			randomnum[i]=(int)(Math.random()*10+1);
+			//System.out.print(randomnum+" ");
+		}
+		for(int i=0;i<10;i++)
+		{
+			System.out.println(randomnum[i]+" ");//i안붙여주면 주소값나옴 조심하자
 		}
 	}
 
