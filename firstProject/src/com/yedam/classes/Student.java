@@ -10,7 +10,7 @@ public class Student {
 		name="김아무개";
 		major="비전공자";
 	}
-	public void getName()
+	public int getName()
 	{
 		this.name;
 	}

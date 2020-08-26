@@ -1,7 +1,7 @@
 package com.yedam.classes;
 
 public class person {
-	String name;
+	public String name;
 	int age;
 	public person()//초기값 선언
 	{

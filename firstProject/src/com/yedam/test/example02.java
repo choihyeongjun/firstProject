@@ -1,5 +1,7 @@
 package com.yedam.test;
 
+import com.yedam.classes.person;
+
 public class example02 {
 
 	public static void main(String[] args) {
@@ -18,6 +20,9 @@ public class example02 {
 		h=f%10;
 		g=f/10;
 		System.out.println(i+""+""+h+""+g);
+		person p1=new person();
+		p1.name="111";
+		
 		
 	}
 

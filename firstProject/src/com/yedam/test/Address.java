@@ -36,6 +36,7 @@ public class Address {
 			number=scanner.nextInt();
 			
 			friend add=new friend(name,age,number);	
+			add.age=10;
 			ad[i]= add;
 		}
 		

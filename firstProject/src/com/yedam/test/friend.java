@@ -1,7 +1,7 @@
 package com.yedam.test;
 
 public class friend{
-	String name;
+	public String name;
 	int age;
 	int number;
 	
@@ -17,10 +17,7 @@ public class friend{
 		this.age=age;
 		this.number=number;
 	}
-	public void getname()
-	{
-		name;
-	}
+	
 	public void setname(String name)
 	{
 		this.name=name;
